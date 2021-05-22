@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataCompany.Views.EditWorker" Title="Редактирование">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="✔" Clicked="SaveMember" />
+    </ContentPage.ToolbarItems>
+    
+    <StackLayout Margin="6,0,0,0" x:Name="stackLayout">
+        
+        <Label Text="Имя" FontSize="Medium" />
+        <Entry MaxLength="15" Keyboard="Text" Text="{Binding Name}" PropertyChanged="Entry_PropertyChanged"
+               x:Name="nameEntry" />
+        
+        <Label Text="Фамилия" FontSize="Medium" />
+        <Entry MaxLength="30" Keyboard="Text" Text="{Binding Surname}" PropertyChanged="Entry_PropertyChanged"
+               x:Name="surnameEntry" />
+        
+        <Label Text="Отчество" FontSize="Medium" />
+        <Entry MaxLength="30" Keyboard="Text" Text="{Binding Patronymic}" PropertyChanged="Entry_PropertyChanged"
+               x:Name="patronymicEntry" />
+        
+        <Label Text="Дата рождения" FontSize="Medium" />
+        <DatePicker x:Name="birthDate" Format="dd.MM.yyyy" Date="{Binding BirthDate}" />
+        
+        <Label Text="Номер телефона" FontSize="Medium" />
+        <Entry MaxLength="30" Keyboard="Numeric" TextChanged="OnEntryTextChanged" Text="{Binding PhoneNumber}" />
+        
+        <Label Text="Компания" FontSize="Medium" />
+        <Picker x:Name="company" Title="Компания"/>
+        
+        <Label Text="Должность" FontSize="Medium" />
+        <Picker x:Name="position" Title="Должность" />
+        
+    </StackLayout>
+</ContentPage>

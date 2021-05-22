@@ -1,0 +1,11 @@
+D:\Users\nutvismunt\Desktop\Freelance\DataCompany\DataCompany\obj\Debug\netstandard2.1\DataCompany.csprojAssemblyReference.cache
+D:\Users\nutvismunt\Desktop\Freelance\DataCompany\DataCompany\obj\Debug\netstandard2.1\App.xaml.g.cs
+D:\Users\nutvismunt\Desktop\Freelance\DataCompany\DataCompany\obj\Debug\netstandard2.1\AppShell.xaml.g.cs
+D:\Users\nutvismunt\Desktop\Freelance\DataCompany\DataCompany\obj\Debug\netstandard2.1\Views\AboutPage.xaml.g.cs
+D:\Users\nutvismunt\Desktop\Freelance\DataCompany\DataCompany\obj\Debug\netstandard2.1\Views\CreateMember.xaml.g.cs
+D:\Users\nutvismunt\Desktop\Freelance\DataCompany\DataCompany\obj\Debug\netstandard2.1\Views\EditMember.xaml.g.cs
+D:\Users\nutvismunt\Desktop\Freelance\DataCompany\DataCompany\obj\Debug\netstandard2.1\Views\MainPage.xaml.g.cs
+D:\Users\nutvismunt\Desktop\Freelance\DataCompany\DataCompany\obj\Debug\netstandard2.1\Views\MemberData.xaml.g.cs
+D:\Users\nutvismunt\Desktop\Freelance\DataCompany\DataCompany\obj\Debug\netstandard2.1\DataCompany.AssemblyInfoInputs.cache
+D:\Users\nutvismunt\Desktop\Freelance\DataCompany\DataCompany\obj\Debug\netstandard2.1\DataCompany.AssemblyInfo.cs
+D:\Users\nutvismunt\Desktop\Freelance\DataCompany\DataCompany\obj\Debug\netstandard2.1\DataCompany.csproj.CoreCompileInputs.cache

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataCompany.Views.CreateWorker"
+             Title="Создание сотрудника">
+    <ContentPage.ToolbarItems>
+           <ToolbarItem Text="ФИО рандом" Clicked="RandomNames"/>
+           <ToolbarItem Text="✔" Clicked="SaveMember" />
+    </ContentPage.ToolbarItems>
+    <StackLayout Margin="6,0,0,0">
+        
+        <Label Text="Имя" FontSize="Medium" />
+        <Entry MaxLength="30" Keyboard="Text" Text="{Binding Name}" TextChanged="Entry_PropertyChanged"
+               x:Name="nameEntry" />
+        
+        <Label Text="Фамилия" FontSize="Medium" />
+        <Entry MaxLength="30" Keyboard="Text" Text="{Binding Surname}" TextChanged="Entry_PropertyChanged"
+               x:Name="surnameEntry" />
+        
+        <Label Text="Отчество" FontSize="Medium" />
+        <Entry MaxLength="30" Keyboard="Text" Text="{Binding Patronymic}" TextChanged="Entry_PropertyChanged"
+               x:Name="patronymicEntry" />
+        
+        <Label Text="Дата рождения" FontSize="Medium" />
+        <DatePicker x:Name="birthDate" Format="dd.MM.yyyy" BindingContext="{Binding BirthDate}" />
+        
+        <Label Text="Номер телефона" FontSize="Medium" />
+        <Entry MaxLength="16" TextChanged="OnEntryTextChanged" Keyboard="Telephone"
+               Text="{Binding PhoneNumber}" />
+
+        <Label Text="Компания" FontSize="Medium" />
+        <Picker x:Name="company" Title="Компания"/>
+        
+        <Label Text="Должность" FontSize="Medium" />
+        <Picker x:Name="position" Title="Должность" />
+        
+    </StackLayout>
+</ContentPage>

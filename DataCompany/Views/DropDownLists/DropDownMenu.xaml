@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataCompany.Views.DropDownLists.DropDownMenu">
+    
+        <StackLayout HorizontalOptions="Center">
+            
+            <Button Text="Компании" FontSize="Large" Margin="10,0,0,0" Clicked="CompaniesClicked"/>
+            <Button Text="Должности" FontSize="Large" Margin="10,0,0,0" Clicked="PositionsClicked" />
+
+        </StackLayout>
+</ContentPage>
