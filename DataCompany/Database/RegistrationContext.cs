@@ -1,8 +1,6 @@
 ﻿using DataCompany.Models;
 using Microsoft.EntityFrameworkCore;
 using System.IO;
-using System.Threading.Tasks;
-using DataCompany.Database.Initializers;
 using Xamarin.Essentials;
 
 namespace DataCompany.Database
@@ -19,7 +17,7 @@ namespace DataCompany.Database
             Database.EnsureCreated();
         }
 
-        protected override async void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string dbPath = Path.Combine(FileSystem.AppDataDirectory, "DataCompanyDb.db3");
 
