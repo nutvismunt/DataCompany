@@ -12,12 +12,12 @@
 
         <StackLayout Margin="10,10,10,0">
 
-            <Label Text="Имя и фамилия:" />
+            <Label Text="ФИО:" />
             <Label x:Name="Name" TextColor="Black" FontSize="Medium">
                 <Label.Text>
-                    <MultiBinding StringFormat="{}{0} {1}">
-                        <Binding Path="Name" />
+                    <MultiBinding StringFormat="{}{0} {1} {2}">
                         <Binding Path="Surname" />
+                        <Binding Path="Name" />
                         <Binding Path="Patronymic"></Binding>
                     </MultiBinding>
                 </Label.Text>

@@ -17,6 +17,9 @@ namespace DataCompany.Models
         /// </summary>
         public string Surname { get; set; }
         
+        /// <summary>
+        /// worker's patronymic
+        /// </summary>
         public string Patronymic { get; set; }
 
         /// <summary>
